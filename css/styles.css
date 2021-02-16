@@ -35,10 +35,11 @@ p {
 }
 
 a {
-  color: #e40017;
+  color: #f4c983;
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
   margin: 10px 20px;
+  font-weight: bold;
 }
 
 a:hover {
@@ -138,9 +139,9 @@ a:hover {
 
 .aot-logo {
   width: 20%;
-  position: absolute;
-  left: 0;
-  top: 0;
+  position: fixed;
+  left: 10px;
+  top: 10px;
 }
 
 .eren-ages {
