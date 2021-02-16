@@ -1,40 +1,151 @@
 body {
   margin: 0;
   text-align: center;
+  font-family: "Merriweather", serif;
+}
+
+hr {
+  border: dotted #5b6d5b 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+h1 {
+  color: #91091e;
+  margin: 50px auto 0 auto;
+  font-family: "Cinzel", serif;
+  font-size: 562.5%;
+}
+
+h2 {
+  color: #91091e;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #e40017;
+}
+
+p {
+  color: #40514e;
+  line-height: 2;
+}
+
+a {
+  color: #e40017;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px;
+}
+
+a:hover {
+  color: #eaf6f6;
 }
 
 .top-container {
-  background-color: #fcd1d1;
+  background-color: #c39e5c;
   position: relative;
   padding-top: 100px;
 }
 
 .middle-container {
-  background-color: red;
+  margin: 100px 0;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.myButton {
+  box-shadow: 0px 10px 14px -7px #276873;
+  background-color: #c39e5c;
+  border-radius: 8px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  padding: 13px 32px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #3d768a;
+}
+.myButton:hover {
+  background: linear-gradient(to bottom, #91091e 5%, #91091e 100%);
+  background-color: #91091e;
+}
+.myButton:active {
+  position: relative;
+  top: 1px;
 }
 
 .bottom-container {
-  background-color: blue;
+  background-color: #c39e5c;
+  position: relative;
+  padding: 50px 0 20px;
 }
 
-h1 {
-  margin-top: 0;
-  
+.a-chad {
+  font-weight: normal;
 }
 
-.pro {
+.chad {
   text-decoration: underline;
 }
 
-.bottom-cloud {
-  position: absolute;
-  left: 300px;
-  bottom: 300px;
+.skill-row {
+  width: 50%;
+  margin: 100px auto 50px auto;
+  text-align: left;
 }
 
+.founding-titan {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
 
-.top-cloud {
+.attack-titan {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.war-hammer-titan {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 10px 0;
+}
+
+.eren-face {
+  width: 25%;
+}
+
+.aot-logo {
+  width: 20%;
   position: absolute;
-  right: 300px;
-  top: 50px;
+  left: 0;
+  top: 0;
+}
+
+.eren-ages {
+  width: 15%;
+  padding: 65px 0;
+  margin: 0 20px;
+  border-radius: 50%;
 }
