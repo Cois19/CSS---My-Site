@@ -7,7 +7,7 @@ body {
 hr {
   border: dotted #5b6d5b 6px;
   border-bottom: none;
-  width: 4%;
+  width: 3%;
   margin: 100px auto;
 }
 
@@ -67,7 +67,7 @@ a:hover {
 }
 
 .myButton {
-  box-shadow: 0px 10px 14px -7px #276873;
+  box-shadow: 0px 10px 14px -7px #000000;
   background-color: #c39e5c;
   border-radius: 8px;
   display: inline-block;
@@ -78,10 +78,9 @@ a:hover {
   font-weight: bold;
   padding: 13px 32px;
   text-decoration: none;
-  text-shadow: 0px 1px 0px #3d768a;
+  text-shadow: 0px 1px 0px #000000;
 }
 .myButton:hover {
-  background: linear-gradient(to bottom, #91091e 5%, #91091e 100%);
   background-color: #91091e;
 }
 .myButton:active {
@@ -100,7 +99,7 @@ a:hover {
 }
 
 .chad {
-  text-decoration: underline;
+  font-weight: bold;
 }
 
 .skill-row {
@@ -145,8 +144,23 @@ a:hover {
 }
 
 .eren-ages {
-  width: 15%;
-  padding: 65px 0;
-  margin: 0 20px;
-  border-radius: 50%;
+  margin: 65px 20px 140px;
+  object-fit: cover;
+  width: 300px;
+  height: 200px;
+}
+
+.young {
+  object-position: -20% 0;
+  position: relative;
+  bottom: 50px;
+}
+
+.teen {
+  position: relative;
+  top: 50px;
+}
+
+.old {
+  object-position: -20% 0;
 }
